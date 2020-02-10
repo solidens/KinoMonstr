@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Киномонстр - это портал о кино">
+    <meta name="keywords" content="фильмы, кино">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap&subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <title>Киномонстр</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="/">КиноМонстр</a></h1>
+                    <h2>Кино — наша страсть!</h2>
+                </div>
+            </div>
+
+            <div class="menubar">
+                <ul class="menu">
+                    <li class="selected"><a href="#">Главная</a></li>
+                    <li><a href="#">Фильмы</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li><a href="#">Рейтинг фильмов</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="site_content">
+
+            <div class="sidebar_container">
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="POST" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="ваш запрос">
+                        <input type="submit" class="btn" value="найти">
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="post" action="#" id="login">
+
+                        <input type="text" name="login_field" placeholder="логин">
+                        <input type="password" name="password_field" placeholder="пароль">
+                        <input type="submit" class="btn" value="вход">
+                        <div class="lables_passreg_text">
+                            <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span></span>
+                    <p>Мы запустили Дениса в космос</p>
+                    <a href="#">Читать</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li><a href="#">Интерстеллар</a><span class="raiting_sidebar">10.0</span></li>
+                        <li><a href="#">Интерстеллар-II</a><span class="raiting_sidebar">9.0</span></li>
+                        <li><a href="#">Интерстеллар-III</a><span class="raiting_sidebar">8.1</span></li>
+                        <li><a href="#">Интерстеллар-IV</a><span class="raiting_sidebar">8.0</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="content">
+                <h1>Новые фильмы</h1>
+                <div class="films_block">
+                    <a href="#"><img src="assets/img/matrix.png"></a>
+                    <a href="#"><img src="assets/img/max.png"></a>
+                    <a href="#"><img src="assets/img/inter.png"></a>
+                    <a href="#"><img src="assets/img/cloud.png"></a>
+                </div>
+
+                <h1>Новые сериалы</h1>
+                <div class="films_block">
+                    <a href="#"><img src="assets/img/dead.png"></a>
+                    <a href="#"><img src="assets/img/silicon.png"></a>
+                    <a href="#"><img src="assets/img/breakingbad.png"></a>
+                    <a href="#"><img src="assets/img/xfiles.png"></a>
+                </div>
+
+                <div class="posts">
+
+                    <hr>
+                    <h2><a href="#">Как снимали Интерстеллар</a></h2>
+
+                    <div class="posts_content">
+
+                        <p>
+                            В основе картины лежит не оригинальная идея, а тема существования чёрных дыр и параллельных
+                            измерений, предложенная физиком-теоретиком Кипом Торном. Первоначально права на картину
+                            принадлежали студии Paramount, а снимать её должен был Стивен Спилберг. В 2006 году к
+                            переработке черновика привлекли Джонатана Нолана – брата Кристофера Нолана. Работу
+                            предстояло проделать кропотливую, ведь уместить в будущий фантастический блокбастер
+                            множество научных обоснований – дело довольно сложное. Этот процесс занял продолжительное
+                            время. Параллельно с подготовкой к съёмкам «Интерстеллара», Спилберг работал и над другими
+                            проектами. Времени на всё не хватало и режиссёр был вынужден покинуть команду фильма.
+                        </p>
+
+                    </div>
+
+                    <p><a href="#">читать</a></p>
+
+                    <hr>
+                    <h2><a href="#">Как снимали лучшие фильмы Панина</a></h2>
+
+                    <div class="posts_content">
+
+                        <p>
+                            В основе картин лежит не оригинальная идея, а тема существования чёрных дыр внутри человеческого организма. Первоначально права на картину
+                            принадлежали самому Панину, но позже права отошли четвероногому другу актёра.
+                        </p>
+
+                    </div>
+
+                    <p><a href="#">читать</a></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>
+            <a href="#">Главная</a> |
+            <a href="#">Фильмы</a> |
+            <a href="#">Сериалы</a> |
+            <a href="#">Рейтинг фильмов</a> |
+            <a href="#">Контакты</a>
+        </p>
+        <p><a href="https://github.com/solidens">github.com/solidens</a></p>
+    </div>
+    </div>
+
+</body>
+
+</html>
