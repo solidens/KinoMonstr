@@ -68,6 +68,34 @@ hr {
     border: solid 1px #f3f3f3;
 }
 
+table {
+    margin-top: 4%;
+    width: 100%;
+    border: solid 1px #f4f4f4;
+}
+
+td {
+    padding: 2%;
+    border: solid 1px #f4f4f4;
+}
+
+td img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+th {
+    padding: 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+.rating {
+    font-weight: bold;
+}
+
 .header {
     background-color: rgba(0, 0, 168, 0.342);
     height: 177px;
@@ -324,6 +352,8 @@ textarea {
     color: white;
 }
 
+
+
 .footer {
     width: 100%;
     height: 100px;
@@ -348,4 +378,148 @@ textarea {
 
 .footer p {
     padding: 0 0 10px 0;
+}
+
+/* CSS mob */
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .header {
+        background-color: #747FD5;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .site_content {
+        width: 100%;
+    }
+
+    .menubar {
+        width: 100%;
+        height: 100%;
+    }
+
+    .site_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sidebar_container {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    ul.menu {
+        float: none;
+    }
+
+    ul.menu li {
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+
+    .logo h1 {
+        font: normal 235% 'Roboto Condensed', sans-serif;
+    }
+
+    .logo h2 {
+        font: normal 100% 'Roboto Condensed', sans-serif;
+    }
+
+    .content h1, h2 {
+        font: normal 110% 'Roboto Condensed', sans-serif;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .films_block img {
+        width: 43%;
+    }
+
+    .posts_content p {
+        line-height: 1.5em;
+        padding: 3%;
+        text-align: left;
+    }
+
+    .posts p {
+        font-size: 120%;
+    }
+
+    /* films page */
+
+    .info_film {
+        float: none;
+        height: 100%;
+    }
+
+    .info_film img {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .button {
+        float: none;
+    }
+
+    /* raiting page */ 
+
+    table {
+        display: block;
+    }
+
+    th {
+        font-size: 75%;
+    }
+
+    td {
+        padding: 0;
+        margin: 0;
+        font-size: 95%;
+        text-align: left;
+    }
+
+    /* show page */
+
+    .description_film {
+        width: 90%;
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .description_film img {
+        float: none;
+        width: 73%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-left: 11%;
+        margin-bottom: 7%;
+    }
+
+    .reviews {
+        text-align: left;
+        width: 96%;
+    }
+
+    .send input[type="text"] {
+        width: 80%;
+    }
+
+    .send textarea {
+        width: 85%;
+    }
 }
